@@ -2,7 +2,7 @@
 * fixed nav
 * @file fixed nav component
 * @author 873920193@qq.com
-* @version 1.0
+* @version 1.1
 * @copyright 2018 onlinedown.net, Inc. All Rights Reserved
 */
 define(function (require) {
@@ -12,8 +12,9 @@ define(function (require) {
     function init(isid) {
         var ba = document.referrer.indexOf('baidu') > -1;
         var bb = (isid === '1219170');
+        var bb1 = (isid === '637958');
         var bc = document.referrer.indexOf('www.onlinedown.net') > -1;
-        if (ba || bb || bc) {
+        if (ba || bb || bb1 || bc) {
             $('em.icon').addClass('checkhover');
             $('#spdownload').hide();
             $('#download').show();
