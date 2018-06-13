@@ -1,0 +1,12 @@
+{
+    "name": "mip-huajun-ppdown",
+    "version": "1.0.0",
+	 "description": "ppdown",
+    "author": {
+        "name": "huajun",
+        "email": "873920193@qq.com"
+    },
+    "engines": {
+        "mip": ">=1.1.0"
+    }
+}
